@@ -1,6 +1,5 @@
-package StepDef;
+package ParallelExecution;
 
-import com.cg.pages.HomePage;
 import com.cg.pages.LoginPage;
 import com.qa.factory.DriverFactory;
 import com.qa.util.ConfigReader;
@@ -8,8 +7,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
 import java.util.Properties;

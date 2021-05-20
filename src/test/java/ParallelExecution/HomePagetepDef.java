@@ -1,4 +1,4 @@
-package StepDef;
+package ParallelExecution;
 
 import com.cg.pages.HomePage;
 import com.cg.pages.LoginPage;

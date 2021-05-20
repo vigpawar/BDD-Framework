@@ -15,6 +15,10 @@ public class HomePage {
  {
      return driver.findElement(searchBox);
  }
+ public String GetTitle()
+ {
+     return driver.getTitle();
+ }
 
 
 

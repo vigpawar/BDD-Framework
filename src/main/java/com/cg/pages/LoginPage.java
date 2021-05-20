@@ -52,5 +52,9 @@ public class LoginPage {
     driver.findElement(signin).click();
     return new HomePage(driver);
     }
+    public String TitleOfHomePage()
+    {
+        return driver.getTitle();
+    }
 
 }

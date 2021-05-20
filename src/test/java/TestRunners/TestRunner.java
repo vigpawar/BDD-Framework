@@ -9,7 +9,14 @@ import org.junit.runner.RunWith;
         features = "src/test/java/Features"
         ,glue={"StepDef","AppHooks"}
         ,dryRun = false,
-        monochrome = true
+        monochrome = true,
+        plugin ={"pretty",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "timeline:test-output-thread/"
+
+
+        }
+
 )
 
 public class TestRunner {
