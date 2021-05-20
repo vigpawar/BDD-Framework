@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class HomePage {
  private WebDriver driver;
- By searchBox = By.xpath("//*[@id=\"search_query_top\"]");
+ By searchBox = By.xpath("//*[@id=\"search_query_to\"]");
  public HomePage(WebDriver driver){
      this.driver=driver;
  }

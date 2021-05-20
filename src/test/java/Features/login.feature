@@ -8,4 +8,3 @@ Feature: Login page feature
     Examples:
       |username  |  password |
       |"vighneshpawar778@gmail.com" | "I20@4568vtvt" |
-      | "abc@gmail.com" | "pqr" |
